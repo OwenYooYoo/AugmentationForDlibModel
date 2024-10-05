@@ -18,7 +18,7 @@ The table above provides a detailed summary of accuracy statistics under these c
 
 The table presents key statistics for each dataset, including:
 
-- **Count**: The number of images used for training/testing.
+- **Count**: The number of model can detect in the video test data.
 - **Min**: The minimum accuracy score.
 - **Max**: The maximum accuracy score.
 - **Mean**: The average accuracy score across all images.
