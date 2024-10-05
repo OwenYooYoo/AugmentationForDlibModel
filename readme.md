@@ -28,23 +28,23 @@ The table presents key statistics for each dataset, including:
 ### Normal Setting
 
 - **Original**:
-  - With 465 images, the accuracy varies between **0.407** and **0.777**, with a mean accuracy of **0.626** and a mode of **0.620**. The standard deviation is **0.069**
+  - With 465 detection, the accuracy varies between **0.407** and **0.777**, with a mean accuracy of **0.626** and a mode of **0.620**. The standard deviation is **0.069**
 - **Augmented**:
-  - With 467 images, the accuracy ranges from **0.417** to **0.762**, with a mean of **0.597** and a mode of **0.588**. The standard deviation is slightly lower at **0.065**, showing that the augmented images lead to more consistent performance.
+  - With 467 detection, the accuracy ranges from **0.417** to **0.762**, with a mean of **0.597** and a mode of **0.588**. The standard deviation is slightly lower at **0.065**, showing that the augmented images lead to more consistent performance.
 
 ### Dark Setting
 
 - **Original**:
-  - With 274 images, the accuracy ranges from **0.400** to **0.728**, with a mean of **0.598** and a mode of **0.652**. The standard deviation is **0.082**
+  - With 274 detection, the accuracy ranges from **0.400** to **0.728**, with a mean of **0.598** and a mode of **0.652**. The standard deviation is **0.082**
 - **Augmented**:
-  - With 284 images, the accuracy ranges from **0.401** to **0.725**, with a mean of **0.580** and a mode of **0.591**. The standard deviation is **0.073**, indicating that augmented images help reduce the variability in performance.
+  - With 284 detection, the accuracy ranges from **0.401** to **0.725**, with a mean of **0.580** and a mode of **0.591**. The standard deviation is **0.073**, indicating that augmented images help reduce the variability in performance.
 
 ### Bright Setting
 
 - **Original**:
-  - With 479 images, the accuracy varies between **0.402** and **0.760**, with a mean accuracy of **0.613** and a mode of **0.626**. The standard deviation is **0.075**.
+  - With 479 detection, the accuracy varies between **0.402** and **0.760**, with a mean accuracy of **0.613** and a mode of **0.626**. The standard deviation is **0.075**.
 - **Augmented**:
-  - With 520 images, the accuracy varies from **0.403** to **0.698**, with a mean of **0.582** and a mode of **0.644**. The standard deviation is **0.066**, again showing reduced variability.
+  - With 520 detection, the accuracy varies from **0.403** to **0.698**, with a mean of **0.582** and a mode of **0.644**. The standard deviation is **0.066**, again showing reduced variability.
 
 ## Justification for Combining Original and Augmented Data
 
