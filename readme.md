@@ -4,7 +4,7 @@
 ## Overview
 
 ![image](readmeimages/2.png)
-In this project, we perform an analysis of face recognition accuracy under different lighting conditions (normal, dark, and bright). Our dataset includes two types of images for each setting:
+In testing, we perform an analysis of face recognition accuracy under different lighting conditions (normal, dark, and bright). Our dataset includes two types of images for each setting:
 
 ![image](readmeimages/1.png)
 1. **Original (OG) images**: Unaltered images from the dataset (500 images).
@@ -68,3 +68,5 @@ The table presents key statistics for each dataset, including:
 ## Conclusion
 
 In conclusion, this analysis demonstrates the importance of combining original and augmented data to improve model generalization and robustness. By using both, we aim to enhance performance in face recognition across varying environments while maintaining high accuracy. This approach is particularly crucial for applications in uncontrolled or real-world settings where lighting and other conditions are not always ideal.
+
+camera for testing: Hale V13 2K WEBCAM 2K FULL HD 
