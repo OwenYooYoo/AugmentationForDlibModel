@@ -62,11 +62,8 @@ The table presents key statistics for each dataset, including:
 ### Final Approach: Combining Original and Augmented Data
 
 - We propose using **500 original images** and **500 augmented images** in the final project. This combination leverages the high accuracy and feature richness of the original dataset, while benefiting from the increased generalization provided by the augmented dataset.
-  
-- **Benefit**: This hybrid approach aims to capture the best of both worlds—maximizing accuracy while ensuring robust performance across different lighting conditions.
 
-## Conclusion
-
-In conclusion, this analysis demonstrates the importance of combining original and augmented data to improve model generalization and robustness. By using both, we aim to enhance performance in face recognition across varying environments while maintaining high accuracy. This approach is particularly crucial for applications in uncontrolled or real-world settings where lighting and other conditions are not always ideal.
+GUI application:
+https://github.com/OwenYooYoo/webcam-antispoofing
 
 camera for testing: Hale V13 2K WEBCAM 2K FULL HD 
