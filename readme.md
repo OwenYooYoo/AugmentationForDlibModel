@@ -12,6 +12,7 @@ In testing, we perform an analysis of face recognition accuracy under different 
 
 ![image](readmeimages/summartTable.png)
 
+we use the same test faces video input, result:
 The table above provides a detailed summary of accuracy statistics under these conditions, comparing original and augmented images. We conducted this analysis to understand the effectiveness of data augmentation and to optimize model performance by leveraging both types of data.
 
 ## Key Statistics Explanation
