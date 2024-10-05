@@ -1,11 +1,16 @@
 # Analysis Original vs Augmented in the small Dataset
 
+
 ## Overview
 
+![image](readmeimages/2.png)
 In this project, we perform an analysis of face recognition accuracy under different lighting conditions (normal, dark, and bright). Our dataset includes two types of images for each setting:
 
+![image](readmeimages/1.png)
 1. **Original (OG) images**: Unaltered images from the dataset (500 images).
 2. **Augmented (AUG) images**: These images have been synthetically augmented to improve the robustness of our model under various conditions.(100 images per image processing technique)
+
+![image](readmeimages/summartTable.png)
 
 The table above provides a detailed summary of accuracy statistics under these conditions, comparing original and augmented images. We conducted this analysis to understand the effectiveness of data augmentation and to optimize model performance by leveraging both types of data.
 
@@ -45,17 +50,19 @@ The table presents key statistics for each dataset, including:
 
 ### Why Augmentation is Useful
 
-- **Improved Generalization**: Augmented images provide the model with a broader set of examples, which improves its ability to generalize to unseen data. This is particularly important when the original dataset is limited.
-- **Robustness to Variations**: Augmentation simulates real-world variations (e.g., lighting changes), making the model more robust to different environments.
+- **Improved Generalization**: Augmented images provide the model with a broader set of examples, which improves its ability to generalize to unseen data. This is particularly important when the original dataset is limited. Augmentation simulates real-world variations (e.g., lighting changes), making the model more robust to different environments.
+  
+**from statistic show that using Augmentation dataset can increase the ability to detect more but still less accurcy.** 
 
 ### Why Original Data is Still Important
 
 - **Maintaining High Accuracy**: The original images often have slightly higher maximum accuracy and mode values compared to the augmented set. This suggests that the original data may capture key features that are somewhat diluted by augmentation.
-- **Dataset Balance**: Combining both datasets allows us to balance performance across both high-accuracy original images and more varied augmented images.
+**from statistic show that original dataset still maintain the accurcy score.**
 
 ### Final Approach: Combining Original and Augmented Data
 
-- We propose using **500 original images** and **500 augmented images** in the final model. This combination leverages the high accuracy and feature richness of the original dataset, while benefiting from the increased generalization provided by the augmented dataset.
+- We propose using **500 original images** and **500 augmented images** in the final project. This combination leverages the high accuracy and feature richness of the original dataset, while benefiting from the increased generalization provided by the augmented dataset.
+  
 - **Benefit**: This hybrid approach aims to capture the best of both worlds—maximizing accuracy while ensuring robust performance across different lighting conditions.
 
 ## Conclusion
